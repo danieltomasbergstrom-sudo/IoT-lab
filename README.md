@@ -103,7 +103,7 @@ Add Data Source
 Repeat the steps above but filter for your humidity data.
 Standard Options: Set Min to 0 and Max to 100. Set unit to Percent (%).
 
-# 5 Automation with Node-RED
+# 5. Automation with Node-RED
 Node-RED acts as the brain, processing logic and triggering alerts.
 Installation
 # Official install script for Raspberry Pi
@@ -125,7 +125,7 @@ if (msg.payload.value > 28) {
 return null;
 3. Debug/Email Node: Outputs the warning to the console or sends a notification.
 
-# 6 Running the Data Collection Script
+# 6. Running the Data Collection Script
 The script lab1.py in the code directory reads data from the sensor and publishes it to the IoT Open broker via MQTT.
 To start the data collection download the lab1.py file in the code folder to a folder of your choie. 
 
