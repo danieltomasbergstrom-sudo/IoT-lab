@@ -4,7 +4,8 @@ This guide covers the end-to-end setup of a temperature and humidity monitoring 
 
 # Material
 Raspberry Pi with 64bit operating system
-Breadboard and some connection cables so that you can connect the pins from the Raspberry Pi to your breadboard. (If you have male to male connection cables you wont need the breadboard for this example, but it always good to have)
+Breadboard and some connection cables so that you can connect the pins from the Raspberry Pi to your breadboard. 
+(If you have male to male connection cables you wont need the breadboard for this example, but it always good to have)
 A DHT11 sensor.
 
 # Preparations
